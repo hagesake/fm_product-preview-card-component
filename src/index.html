@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="stylesheet"
+			href="../dist/styles.css" />
+
+		<title>FM Challenge 2</title>
+	</head>
+	<body class="bg-cream">
+		<main
+			class="container mx-auto flex justify-center items-center min-h-screen">
+			<div
+				class="flex flex-col w-4/5 max-w-[44rem] mx-auto my-0 px-4 py-8 -lg:bg-cream lg:flex-row">
+				<img
+					src="../public/assets/images/image-product-mobile.jpg"
+					alt="perfume image"
+					class="lg:hidden rounded-t-xl" />
+				<img
+					src="../public/assets/images/image-product-desktop.jpg"
+					alt="perfume image"
+					class="-lg:hidden w-1/2 aspect-video rounded-l-xl" />
+
+				<div
+					class="product-info p-6 border -lg:rounded-b-xl bg-custom-white -lg:shadow-lg lg:w-1/2 lg:p-10 lg:rounded-r-xl">
+					<section class="product-content mb-6 lg:mb-8">
+						<p
+							class="font-Montserrat text-lg leading-8 text-dark-grayish-blue tracking-[0.3rem] mb-3 lg:mb-7">
+							PERFUME
+						</p>
+						<h1
+							class="font-Fraunces font-black text-4xl text-very-dark-blue leading-8 mb-6 lg:mb-10 lg:text-5xl">
+							Gabrielle Essence Eau De Parfum
+						</h1>
+						<p class="font-Montserrat text-lg text-dark-grayish-blue leading-6">
+							A floral, solar and voluptuous interpretation composed by Olivier
+							Polge, Perfumer-Creator for the House of CHANEL.
+						</p>
+					</section>
+					<section class="prices">
+						<div class="flex flex-wrap items-center gap-5 mb-5 lg:mb-10">
+							<h2 class="font-Fraunces font-black text-4xl text-dark-cyan">
+								$149.99
+							</h2>
+							<p
+								class="font-Montserrat font-medium text-dark-grayish-blue line-through">
+								$169.99
+							</p>
+						</div>
+						<button
+							class="flex justify-center items-center gap-3 w-full max-w-lg bg-dark-cyan mx-auto p-4 rounded-xl font-Montserrat font-semibold text-custom-white lg:hover:bg-dark-cyan-hover">
+							<img
+								src="../public/assets/images/icon-cart.svg"
+								alt="shopping cart icon"
+								class="h-5" />
+							Add to Cart
+						</button>
+					</section>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
